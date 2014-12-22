@@ -1,9 +1,9 @@
 {
-  "name": "mphrx-angular",
+  "name": "angular-mphrx",
   "private": true,
   "version": "0.0.1",
   "description": "Basic Search implementation of webconnect in angular",
-  "repository": "https://github.com/sgrewal-mphrx/mphrx-angular",
+  "repository": "https://github.com/sgrewal-mphrx/angular-mphrx",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
