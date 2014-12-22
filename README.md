@@ -5,7 +5,7 @@ This project is an application to implement the basic search flow of connect
 The projectis preconfigured to install the Angular
 framework and a bunch of development and testing tools for instant web development gratification.
 
-The seed app doesn't do much, just shows how to wire two controllers and views together.
+The default implementation doesn't do much, just shows how to wire two controllers and views together.
 
 
 ## Getting Started
@@ -47,7 +47,7 @@ Behind the scenes this will also call `bower install`.  You should find that you
 folders in your project.
 
 * `node_modules` - contains the npm packages for the tools we need
-* `app/bower_components` - contains the angular framework files
+* `webconnect/bower_components` - contains the angular framework files
 
 *Note that the `bower_components` folder would normally be installed in the root folder but
 angular-mphrx changes this location through the `.bowerrc` file.  Putting it in the app folder makes
@@ -62,7 +62,7 @@ this server is:
 npm start
 ```
 
-Now browse to the app at `http://localhost:8000/app/index.html`.
+Now browse to the app at `http://localhost:8000/webconnect/index.html`.
 
 
 ## Testing
@@ -185,13 +185,13 @@ http-server -a localhost -p 8000
 ```
 
 Alternatively, you can choose to configure your own webserver, such as apache or nginx. Just
-configure your server to serve the files under the `app/` directory.
+configure your server to serve the files under the `webconnect/` directory.
 
 
 ### Running the App in Production
 
 This really depends on how complex your app is and the overall infrastructure of your system, but
-the general rule is that all you need in production are all the files under the `app/` directory.
+the general rule is that all you need in production are all the files under the `webconnect/` directory.
 Everything else should be omitted.
 
 Angular apps are really just a bunch of static html, css and js files that just need to be hosted
