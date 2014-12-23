@@ -5,7 +5,8 @@ angular.module('webconnect', [
   'ngRoute',
   'webconnect.view1',
   'webconnect.view2',
-  'webconnect.version'
+  'webconnect.version',
+  'webconnect.search'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
